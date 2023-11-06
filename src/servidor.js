@@ -6,7 +6,7 @@ const fileUpload = require('express-fileupload');
 
 const usuarioRouter = require('./routes/usuarioRoutes.js');
 const autenticacionRouter = require('./routes/autenticacionRoutes.js');
-const archivoRouter = require('./routes/archivoRouter.js');
+const archivoRouter = require('./routes/archivosRoutes.js');
 
 const app = express();
 const PORT = 3000;

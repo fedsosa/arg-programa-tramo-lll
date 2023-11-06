@@ -1,7 +1,7 @@
 const archivoRouter = require('express').Router();
 const {
     subirArchivo,
-} = require('./../controllers/ArchivosController.js');
+} = require('./../controllers/ArchivosControllers.js');
 
 archivoRouter.post('/subirArchivo', subirArchivo);
 
